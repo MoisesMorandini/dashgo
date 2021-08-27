@@ -32,10 +32,10 @@ export function Header() {
             <Text color="gray.300" fontSize="small">
               moises-morandini@hotmail.com
             </Text>
-            <Avatar size="md" name="Moisés Morandini"
-              src="https://github.com/MoisesMorandini.png"
-            />
           </Box>
+          <Avatar size="md" name="Moisés Morandini"
+            src="https://github.com/MoisesMorandini.png"
+          />
         </Flex>
       </Flex>
     </Flex>
