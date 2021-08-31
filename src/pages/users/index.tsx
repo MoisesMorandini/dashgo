@@ -1,6 +1,6 @@
 import { Box, Button, Checkbox, Flex, Text, Heading, Icon, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { Header } from "../../components/Header";
-import { SideBar } from "../../components/SideBar";
+import { Sidebar } from "../../components/Sidebar";
 import React from "react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import { Pagination } from "../../components/Pagination";
@@ -10,7 +10,7 @@ export default function UserList() {
     <Box>
       <Header />
       <Flex w="100%" maxWidth={1480} my="6" mx="auto" px="6" >
-        <SideBar />
+        <Sidebar />
         <Box flex="1" p="8" borderRadius={8} bg="gray.800">
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="large" fontWeight="normal">Usuários</Heading>
